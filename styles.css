@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Kalam:wght@300&family=Open+Sans:wght@300&family=Patrick+Hand&family=Russo+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  letter-spacing: 0.1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+button {
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+/*navbar*/
+.navbar {
+  background: rgba(8, 21, 56);
+  color: white;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+}
+.navbar .container {
+  width: 80vw;
+  padding: 20px 0px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  color: white;
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+}
+li {
+  margin-right: 20px;
+}
+/*header*/
+.header {
+  position: relative;
+  /*padding: 100px;*/
+  min-height: 50vh;
+  padding: 20px 0px;
+  background: rgba(8, 21, 56);
+  color: white;
+}
+.header .container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.heading {
+  /*align-items: center;*/
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.header .left-content {
+  /*margin-top: 100px;*/
+  /*width: 50%;*/
+  align-items: center;
+}
+.header .right-content {
+  background: url(./1190662.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  width: 50vw;
+  height: 30vh;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.5);
+}
+.header h3 {
+  line-height: 1;
+  font-weight: 10px;
+  font-size: 4rem;
+}
+.header p {
+  margin-top: 20px;
+}
+
+.header button {
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  background: rgb(0, 126, 245);
+  color: white;
+  padding: 10px 30px;
+  transition: all 0.3s linear;
+}
+
+.header button:hover {
+  background: rgb(0, 37, 245);
+}
+
+/*main*/
+
+main {
+  display: grid;
+  /*place-content: center;*/
+  height: 45vh;
+  padding: 20px;
+  /*align-items: center;*/
+  justify-content: center;
+  background: #fff;
+}
+
+main .head {
+  /*margin-top: 5vh;*/
+  text-align: center;
+  font-size: 2rem;
+  /*margin-bottom: 10vh;*/
+}
+
+.boxes {
+  /*text-align: center;
+  align-items: center;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  place-content: center;
+}
+
+.box {
+  /*position: relative;*/
+  background: url(./1583978705_Cute-Aesthetic-Anime-Wallpaper-mundorosa-mãedemenina-princess.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  /*border: 2px blue solid;*/
+  border-radius: 20px;
+  transition: 0.3s all linear;
+}
+.box:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0px -1px 10px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px -1px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.box-text {
+  margin: 0 auto;
+  text-align: center;
+  width: 220px;
+}
+/*quote*/
+
+.quote {
+  padding: 20px 0px;
+  font-weight: lighter;
+  background: #ccc;
+}
+.quote .container {
+  width: 60vw;
+
+  font-size: 2rem;
+  font-style: italic;
+}
+.author {
+}
+
+.sign-bar {
+  background: rgb(0, 126, 245);
+  width: 60vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: white;
+  padding: 40px 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sign-bar h4 {
+  font-size: 1.5rem;
+}
+.sign-bar .right {
+  /*margin-top: 20px;*/
+  align-items: center;
+}
+.sign-bar button {
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.sign-bar button:hover {
+  background: black;
+  border: black 2px solid;
+}
+
+/*footer*/
+.footer {
+  min-height: 8vh;
+  background: #222;
+  color: #fff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
